@@ -3,7 +3,7 @@ import axios from 'axios';
 const Config = {
   baseURL: 'https://api.themoviedb.org/3/movie',
   token:
-    'Your Token',
+    'eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiI1YTliNzI4YzY4MDRjM2EwNDg0OTY2ZTEwN2JkMDA4NSIsInN1YiI6IjY1M2M5OTRiMTA5Y2QwMDBhZDYyMGZjYiIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.ScsgchwmoKvvZ99yp4i8Wv7uxy1XIpdAN1Trcqqh1s4',
 };
 
 export const getUpcomingMovies = async () => {

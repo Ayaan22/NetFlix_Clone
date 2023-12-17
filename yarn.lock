@@ -1742,11 +1742,6 @@
     metro-react-native-babel-transformer "0.76.8"
     metro-runtime "0.76.8"
 
-"@react-native/normalize-color@*":
-  version "2.1.0"
-  resolved "https://registry.npmjs.org/@react-native/normalize-color/-/normalize-color-2.1.0.tgz"
-  integrity sha512-Z1jQI2NpdFJCVgpY+8Dq/Bt3d+YUi1928Q+/CZm/oh66fzM0RUl54vvuXlPJKybH4pdCZey1eDTPaLHkMPNgWA==
-
 "@react-native/normalize-colors@*":
   version "0.74.1"
   resolved "https://registry.npmjs.org/@react-native/normalize-colors/-/normalize-colors-0.74.1.tgz"
@@ -2900,15 +2895,6 @@ depd@2.0.0:
   resolved "https://registry.npmjs.org/depd/-/depd-2.0.0.tgz"
   integrity sha512-g7nH6P6dyDioJogAAGprGpCtVImJhpPk/roCzdb3fIh61/s/nPsfR6onyMwkCAR/OlC3yBC0lESvUoQEAssIrw==
 
-deprecated-react-native-prop-types@^2.2.0:
-  version "2.3.0"
-  resolved "https://registry.npmjs.org/deprecated-react-native-prop-types/-/deprecated-react-native-prop-types-2.3.0.tgz"
-  integrity sha512-pWD0voFtNYxrVqvBMYf5gq3NA2GCpfodS1yNynTPc93AYA/KEMGeWDqqeUB6R2Z9ZofVhks2aeJXiuQqKNpesA==
-  dependencies:
-    "@react-native/normalize-color" "*"
-    invariant "*"
-    prop-types "*"
-
 deprecated-react-native-prop-types@4.1.0:
   version "4.1.0"
   resolved "https://registry.npmjs.org/deprecated-react-native-prop-types/-/deprecated-react-native-prop-types-4.1.0.tgz"
@@ -2963,11 +2949,6 @@ electron-to-chromium@^1.4.535:
   version "1.4.569"
   resolved "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.569.tgz"
   integrity sha512-LsrJjZ0IbVy12ApW3gpYpcmHS3iRxH4bkKOW98y1/D+3cvDUWGcbzbsFinfUS8knpcZk/PG/2p/RnkMCYN7PVg==
-
-eme-encryption-scheme-polyfill@^2.1.1:
-  version "2.1.1"
-  resolved "https://registry.npmjs.org/eme-encryption-scheme-polyfill/-/eme-encryption-scheme-polyfill-2.1.1.tgz"
-  integrity sha512-njD17wcUrbqCj0ArpLu5zWXtaiupHb/2fIUQGdInf83GlI+Q6mmqaPGLdrke4savKAu15J/z1Tg/ivDgl14g0g==
 
 emittery@^0.13.1:
   version "0.13.1"
@@ -4644,11 +4625,6 @@ jsonfile@^4.0.0:
     object.assign "^4.1.4"
     object.values "^1.1.6"
 
-keymirror@^0.1.1:
-  version "0.1.1"
-  resolved "https://registry.npmjs.org/keymirror/-/keymirror-0.1.1.tgz"
-  integrity sha512-vIkZAFWoDijgQT/Nvl2AHCMmnegN2ehgTPYuyy2hWQkQSntI0S7ESYqdLkoSe1HyEBFHHkCgSIvVdSEiWwKvCg==
-
 keyv@^4.5.3:
   version "4.5.4"
   resolved "https://registry.npmjs.org/keyv/-/keyv-4.5.4.tgz"
@@ -5645,6 +5621,11 @@ react-native-linear-gradient@^2.8.3:
   resolved "https://registry.npmjs.org/react-native-linear-gradient/-/react-native-linear-gradient-2.8.3.tgz"
   integrity sha512-KflAXZcEg54PXkLyflaSZQ3PJp4uC4whM7nT/Uot9m0e/qxFV3p6uor1983D1YOBJbJN7rrWdqIjq0T42jOJyA==
 
+react-native-orientation-locker@^1.5.0:
+  version "1.5.0"
+  resolved "https://registry.npmjs.org/react-native-orientation-locker/-/react-native-orientation-locker-1.5.0.tgz"
+  integrity sha512-4XOCGmNN4BXg5JUFjUuXpsfhPJmbA3LkQilJO1ed+6vL97teTdG2w5IEevKiqL9/hPjeWE8YYtX/YW+yp53hkg==
+
 react-native-responsive-dimensions@^3.1.1:
   version "3.1.1"
   resolved "https://registry.npmjs.org/react-native-responsive-dimensions/-/react-native-responsive-dimensions-3.1.1.tgz"
@@ -5671,15 +5652,10 @@ react-native-vector-icons@^10.0.1:
     prop-types "^15.7.2"
     yargs "^16.1.1"
 
-react-native-video@^6.0.0-alpha.1:
-  version "6.0.0-alpha.1"
-  resolved "https://registry.npmjs.org/react-native-video/-/react-native-video-6.0.0-alpha.1.tgz"
-  integrity sha512-uY4rct/aMXPBCFejZqACWPI8V0Q0gqcCg1tv8UFXdSjnRW122U0HkRFw1wMnOT+YQM+SYCm5HG90/5fykSMdig==
-  dependencies:
-    deprecated-react-native-prop-types "^2.2.0"
-    keymirror "^0.1.1"
-    prop-types "^15.7.2"
-    shaka-player "^3.3.2"
+react-native-video@^6.0.0-alpha.3:
+  version "6.0.0-beta.0"
+  resolved "https://registry.npmjs.org/react-native-video/-/react-native-video-6.0.0-beta.0.tgz"
+  integrity sha512-PZrwrbVKvIyDdRImV76T75/Cmilx5TC1H78D5/rPOsiE/LKabWWXUDNZeNx8hdwcmdPxtGHK77BdLq8S1qYAmQ==
 
 react-native@0.72.6:
   version "0.72.6"
@@ -6090,13 +6066,6 @@ setprototypeof@1.2.0:
   version "1.2.0"
   resolved "https://registry.npmjs.org/setprototypeof/-/setprototypeof-1.2.0.tgz"
   integrity sha512-E5LDX7Wrp85Kil5bhZv46j8jOeboKq5JMmYM3gVGdGH8xFpPWXUMsNrlODCrkoxMEeNi/XZIwuRvY4XNwYMJpw==
-
-shaka-player@^3.3.2:
-  version "3.3.19"
-  resolved "https://registry.npmjs.org/shaka-player/-/shaka-player-3.3.19.tgz"
-  integrity sha512-tZowO6D2nlKTYQadiAZ5LcjhJSW5/OO8UVkEax3llgDTusFkjoV1CQCXYVks80pDLAwTWC6kwY5JDobWwC9mJw==
-  dependencies:
-    eme-encryption-scheme-polyfill "^2.1.1"
 
 shallow-clone@^3.0.0:
   version "3.0.1"

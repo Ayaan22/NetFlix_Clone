@@ -1,20 +1,37 @@
-import {FlatList, Image, StyleSheet, Text, View} from 'react-native';
+import {
+  FlatList,
+  Image,
+  StyleSheet,
+  Text,
+  TouchableOpacity,
+  View,
+} from 'react-native';
 import React from 'react';
 import {
   responsiveHeight,
   responsiveWidth,
 } from 'react-native-responsive-dimensions';
+import {useNavigation} from '@react-navigation/native';
 
 const MovieCards = ({title, data}) => {
+  const navigation =useNavigation()
+
+  const handleOnClick=(movieData)=>{
+ navigation.navigate('VideoPlayer',{movieData})
+  }
+
+
   const renderMovieCards = ({item, index}) => {
     return (
-      <Image
-        resizeMode="center"
-        style={styles.movieImg}
-        source={{
-          uri: `https://image.tmdb.org/t/p/w500/${item.poster_path}`,
-        }}
-      />
+      <TouchableOpacity onPress={()=>handleOnClick(item)} >
+        <Image
+          resizeMode="center"
+          style={styles.movieImg}
+          source={{
+            uri: `https://image.tmdb.org/t/p/w500/${item.poster_path}`,
+          }}
+        />
+      </TouchableOpacity>
     );
   };
   return (

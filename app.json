@@ -1,4 +1,5 @@
 {
   "name": "Netflix_Clone",
-  "displayName": "Netflix_Clone"
+  "displayName": "Netflix_Clone",
+  "orientation":"default"
 }
